@@ -1,0 +1,58 @@
+body, html {
+    margin: 0px;
+    padding: 0px;
+}
+
+#lo-res {
+    height: 100vh;
+    width: 75vh;
+    position: relative;
+    margin: auto;
+}
+
+#grid {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.row { 
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+}
+
+.cell {
+    flex: 1;
+    margin: 3px;
+}
+
+.default {
+    background-color: rgb(240, 240, 240);
+}
+
+.orange {
+    background-color: #ff9900!important;
+}
+
+.pink {
+    background-color: #e90080!important;
+}
+
+.green {
+    background-color: #00ebb0!important;
+}
+
+.blue {
+    background-color: #00c3ff!important;
+}
+
+.red {
+    background-color: #ff0000!important;
+}
+
